@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="/main.js" defer></script>
     <title>Calculadora Básica 02</title>
-    <script src="/main.js"></script>
 </head>
 <body>
     <main>
         <form class="conteiner">
             <h1 class="titulo">Calculadora Basica</h1>
-            <input class="caixa-num" type="number" placeholder="Digite o 1° numero">
-            <input class="caixa-num" type="number" placeholder="Digite o 2° numero">
-            <button class="botao" type="button">+</button>
-            <button class="botao" type="button">-</button>
-            <button class="botao" type="button">*</button>
-            <button class="botao" type="button">/</button>
+            <input id="caixa=num1" class="caixa-num" type="number" placeholder="Digite o 1° numero">
+            <input id="caixa-num2" class="caixa-num" type="number" placeholder="Digite o 2° numero">
+            <button id="botao+" class="botao" type="button">+</button>
+            <button id="botao-" class="botao" type="button">-</button>
+            <button id="botao*" class="botao" type="button">*</button>
+            <button id="botao/" class="botao" type="button">/</button>
+            <button id="botaoIgual" class="botao">Calcular</button>
             <div class="resultado"> o resultado vai aparecer aqui...</div>
         </form>
     </main>
