@@ -1,0 +1,55 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #323330;
+    font-family: Arial, Helvet
+}
+main{ color: blue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.conteiner{
+    background-color: #3B3B3B;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 18px;
+    width: 300px;
+    box-shadow: 0 0 24px #000000;
+    border-radius: 8px;
+
+}
+.titulo{
+    color: rgb(255, 0, 212);
+
+    margin: 40px;
+}
+.caixa-num{ font-size: 20px;
+    background-color: #ee8ce1;
+    display: flexbox;
+    gap: 18px;
+    padding: 18px;
+    width: 75px
+    border-color: #000000;
+
+}
+.botao{
+    background-color: #ee8ce1;
+    box-shadow: inset 20px;
+    font-size: 40px;}
+
+.resultado{
+    font-size: 20;
+    background-color: white;
+    display: flexbox;
+    gap: 18px;
+    padding: 18px;
+    width: 75px
+    border-color: #000000;
+
+}
